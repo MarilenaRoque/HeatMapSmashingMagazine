@@ -1,0 +1,34 @@
+
+.navbar {
+    width: 100%;
+    height: 108.39px;
+    background-color: blueviolet;
+}
+
+*{
+    border: 2px solid black !important;
+}
+
+h1{
+    position: absolute;    
+}
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row1 {
+    height: 684.36px;
+    background-color: brown;
+}
+
+.row2 {
+    height: 644.77px;
+    background-color: coral;
+}
+
+
+
+
