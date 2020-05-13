@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>HeatMap Smashing Magazine</title>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
     <link href="/assets/styles/reset.css" rel="stylesheet" type="text/css">
     <link href="/assets/styles/style.css" rel="stylesheet" type="text/css">       
 </head>
@@ -41,8 +42,8 @@
         </h1>
         <article class="main-article row1">
             <div class="flex align-center">
-                <div class="article-picture"></div>
-                <p class="font-size-24 bold">Paul Boag <span class="font-size-16">wrote</span></p>
+                <div class="article-picture rotate-picture"></div>
+                <p class="font-size-24 bold">Paul Boag <span class="font-size-16 italic">wrote</span></p>
             </div>
             <div class="title py-18 bg-00">
                 <span class="font-size-40">How To Convince Others Not To Use Dark Patterns</span>
@@ -57,7 +58,7 @@
         
         <article class="main-article row1">
             <div class="flex align-center">
-                <div class="article-picture"></div>
+                <div class="article-picture rotate-picture"></div>
                 <p class="font-size-24 bold">Paul Boag <span class="font-size-16">wrote</span></p>
             </div>
             <div class="title py-18 bg-00">
@@ -71,9 +72,9 @@
             </ul>
         </article>
 
-        <article class="main-article row1">
+        <article class="main-article row2">
             <div class="flex align-center">
-                <div class="article-picture"></div>
+                <div class="article-picture rotate-picture"></div>
                 <p class="font-size-24 bold">Paul Boag <span class="font-size-16">wrote</span></p>
             </div>
             <div class="title py-18 bg-00">
@@ -87,9 +88,9 @@
             </ul>
         </article>
 
-        <article class="main-article row1">
+        <article class="main-article row2">
             <div class="flex align-center">
-                <div class="article-picture"></div>
+                <div class="article-picture rotate-picture"></div>
                 <p class="font-size-24 bold">Paul Boag <span class="font-size-16">wrote</span></p>
             </div>
             <div class="title py-18 bg-00">
@@ -117,7 +118,7 @@
             </ul>
             <button type="button" class="about-membership font-size-24">About Smashing Membership →</button>
         </div>
-        <div class="big-picture"></div>
+        <div class="big-picture rotate-picture"></div>
     </div>
 
     <div class="articles bg-07">
@@ -205,20 +206,65 @@
         </div>
     </section>
 
-    <div class="week-person">
-        <div class="picture"></div>
-        <div class="text"></div>
+    <div class="week-person flex font-merri">
+        <div class="picture rotate-picture"></div>
+        <div class="text">
+            <h4>PERSON OF THE WEEK</h4>
+            <p>Jason Lengstorf (<a href="#">@jlengstorf</a>) is a principal developer experience engineer at Netlify and the host of <a href="#" class="italic">Learn With Jason</a>, a live-streamed video show where he pairs with people in the community to learn something new in 90 minutes. He’s passionate about building healthy, efficient teams and systems, and he’s done his best to positively influence the community, leadership, and technical health of open source and companies including Gatsby and IBM. He also shares his experiences on his <a href="#">blog</a> and as a <a href="#">speaker</a>. Thank you for sharing and caring, dear Jason!</p>
+        </div>
     </div>
 
     <div class="writers">
-        <div class="wrote-item"></div>
-        <div class="wrote-item"></div>
-        <div class="wrote-item"></div>
-        <div class="wrote-item"></div>
-        <div class="wrote-item"></div>
-        <div class="wrote-item"></div>
+        <div class="wrote-item">
+            <div class="article-picture rotate-picture"></div>
+            <div class="text-writer">
+                <span>Michelle Barker wrote</span>
+                <h3 class="font-size-30 bg-01">Intersection Observer Visualizer</h3>
+                <p class="font-merri">may 12, 2020 — Chris Coyier shares a handy trick for building an accessible range slider, using and wrestling it into shape with CSS.</p>
+            </div>
+        </div>
+        <div class="wrote-item">
+            <div class="article-picture rotate-picture"></div>
+            <div class="text-writer">
+                <span>Chris Coyier wrote</span>
+                <h3 class="font-size-30 bg-01">Accessible Range Slider</h3>
+                <p class="font-merri">may 13, 2020 — Michelle Barker built a little tool to help with visualizing Intersection Observer. Once you’ve adjusted the rootMargin and threshold values, you can scroll the container to see where intersectionRatio matches the threshold value.</p>
+            </div>
+        </div>
+        <div class="wrote-item">
+            <div class="article-picture rotate-picture"></div>
+            <div class="text-writer">
+                <span>Carl Alviani wrote</span>
+                <h3 class="font-size-30 bg-01">Remote Design</h3>
+                <p class="font-merri">may 11, 2020 — Online is different. So when working remotely, it’s a good idea to rethink it entirely instead of trying to replicate an in-person experience online. Carl Alviani wrote a great article on remote design and collaboration.</p>
+            </div>
+        </div>
+        <div class="wrote-item">
+            <div class="article-picture rotate-picture"></div>
+            <div class="text-writer">
+                <span>Miriam Suzanne wrote</span>
+                <h3 class="font-size-30 bg-01">Custom Cascades</h3>
+                <p class="font-merri">may 8, 2020 — By defining a cascade of custom properties, you can determine which intent should take priority — without worrying about the specificity of how that value is defined. Miriam Suzanne shows how it works.</p>
+            </div>
+        </div>
+        <div class="wrote-item">
+            <div class="article-picture rotate-picture"></div>
+            <div class="text-writer">
+                <span>Ryan Yao wrote</span>
+                <h3 class="font-size-30 bg-01">Designer Slack Communities</h3>
+                <p class="font-merri">may 7, 2020 — Are you looking for communities to connect with fellow designers? Ryan Yao set up an overview of Designer Slack Communities that you can join.</p>
+            </div>
+        </div>
+        <div class="wrote-item">
+            <div class="article-picture rotate-picture"></div>
+            <div class="text-writer">
+                <span>Addy Osmani wrote</span>
+                <h3 class="font-size-30 bg-01">Web Vitals</h3>
+                <p class="font-merri">may 6, 2020 — Google’s Web Vitals initiative provides unified guidance for quality signals that are essential to delievering great UX. Lighthouse, PageSpeed Insights, DevTools and more tools will support many Core Web Vitals soon.</p>
+            </div>
+        </div>
     </div>
-    <div class="links"></div>
+    <div class="links flex justify-center font-size-24">MORE LINKS ON TWITTER</div>
     <div class="design-systems"></div>
     
     <div class="nav-bottom">

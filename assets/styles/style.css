@@ -11,6 +11,11 @@
     --color-09: #adadad;
 }
 
+.font-merri{
+    font-family: 'Merriweather', Arial, Helvetica, serif;
+    line-height: 30px;
+}
+
 .bg-00 { background-color: var(--color-00); }
 .bg-01 { background-color: var(--color-01); }
 .bg-02 { background-color: var(--color-02); }
@@ -24,6 +29,7 @@
 
 .bold { font-weight: bold; }
 .normal { font-weight: normal;}
+.italic { font-style: italic;}
 .font-size-14 { font-size: 14px; }
 .font-size-16 { font-size: 16px; }
 .font-size-20 { font-size: 20px; }
@@ -61,6 +67,16 @@
 .flex.align-center { align-items: center; }
 .flex.align-end { align-items: flex-end; }
 .flex.wrap { flex-wrap: wrap;}
+
+.rotate-picture{
+    transform: rotate(-10deg);
+    transform-origin: bottom left;
+    transition: transform, 0.5s;
+}
+
+.rotate-picture:hover {
+    transform: rotate(0deg);
+}
 
 * {
     box-sizing: border-box;
@@ -130,11 +146,13 @@ h1 span {
 .row1 {
     height: 684.36px;
     background-color: brown;
+    padding-top: 210px;
 }
 
 .row2 {
     height: 644.77px;
     background-color: coral;
+    padding-top: 50px;
 }
 
 .article-picture{
@@ -150,7 +168,9 @@ h1 span {
 }
 
 .main-article{
-    padding: 210px 80px 146px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 146px;
 }
 
 .main-article .title {
@@ -166,6 +186,9 @@ h1 span {
     height: 322px; 
     background-color: darkorange;
     flex: 0 0 250px;
+    position: relative; 
+    bottom: 50px;
+
 }
 
 .list {
@@ -260,3 +283,48 @@ h1 span {
     height: 517px;
     background: red;
 }
+
+/* Week Person Section */
+
+.picture {
+    width: 284px;
+    height: 284px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.text {
+    width: 70%;
+    margin-left: 40px;
+}
+
+.week-person {
+    padding: 16px 75px;
+}
+
+h4{
+    margin: 40px 0px;
+}
+
+.wrote-item{
+    display: grid;
+    grid-template-columns: 75px auto;
+    grid-gap: 20px;
+    padding-bottom: 80px;
+}
+
+.writers{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    background-color: blue;
+}
+
+.text-writer h3{
+    margin: 20px 0px;
+}
+
+
+
+
