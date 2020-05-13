@@ -32,6 +32,9 @@
 .font-size-30 { font-size: 30px; }
 .font-size-34 { font-size: 34px; }
 .font-size-40 { font-size: 40px; }
+.font-size-52 { font-size: 52px; }
+
+.text-center { text-align: center; }
 
 .px-6 { padding-left: 6px; padding-right: 6px;  }
 .px-10 { padding-left: 10px; padding-right: 10px; }
@@ -65,6 +68,14 @@
 body {
     color: #fff;
     font-family: 'Baloo Paaji 2', cursive;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: block;
+    padding: 12px 20px;
 }
 
 .navbar {
@@ -147,8 +158,6 @@ h1 span {
 }
 
 .membership{
-    height: 512px;
-    width: 100%;
     background-color: darkcyan;
     padding: 20px 250px;
 }
@@ -162,6 +171,7 @@ h1 span {
 .list {
     margin-right: 100px;
     background-color: darkslategray;
+    padding: 30px;
 }
 
 .membership li{
@@ -183,8 +193,70 @@ h1 span {
 }
 
 
+.articles {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(360px, 25%));
+    padding-right: 30px;
+}
 
+.articles > * {
+    padding: 26px;
+}
 
+.articles article h3 {
+    padding: 20px;
+}
 
+.articles article p {
+    margin-top: 20px;
+    padding: 16px;
+}
 
+.articles .trymyui h4, .articles .trymyui p, .articles .trymyui-inner, .feature p {
+    padding: 20px;
+}
 
+.articles .trymyui button, .feature button {
+    margin: 20px 0;
+    margin: 20px auto;
+}
+
+.feature {
+    grid-column: auto / span 2;
+    padding: 30px 50px;
+}
+
+.feature .feature-image {
+    width: 250px;
+    height: 290px;
+    background: red;
+}
+
+.feature h4, .click h2 {
+    margin: 30px 0;
+    padding: 16px;
+}
+
+.links {
+    margin: 50px 0;
+}
+.links > div {
+    padding: 20px;
+}
+
+.click {
+    padding: 50px;
+}
+
+.click p {
+    max-width: 55vw;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.click .click-image {
+    margin: 40px 0;
+    width: 920px;
+    height: 517px;
+    background: red;
+}
