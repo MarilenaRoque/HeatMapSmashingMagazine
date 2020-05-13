@@ -30,43 +30,14 @@
 .bold { font-weight: bold; }
 .normal { font-weight: normal;}
 .italic { font-style: italic;}
-.font-size-14 { font-size: 14px; }
-.font-size-16 { font-size: 16px; }
-.font-size-20 { font-size: 20px; }
-.font-size-24 { font-size: 24px; }
-.font-size-28 { font-size: 28px; }
-.font-size-30 { font-size: 30px; }
-.font-size-34 { font-size: 34px; }
-.font-size-40 { font-size: 40px; }
-.font-size-52 { font-size: 52px; }
 
 .text-center { text-align: center; }
 
-.px-6 { padding-left: 6px; padding-right: 6px;  }
-.px-10 { padding-left: 10px; padding-right: 10px; }
-.px-14 { padding-left: 14px; padding-right: 14px; }
-.px-18 { padding-left: 18px; padding-right: 18px; }
-.px-20 { padding-left: 20px; padding-right: 20px; }
-.px-24 { padding-left: 24px; padding-right: 24px; }
-
-.py-6 { padding-top: 6px; padding-bottom: 6px;  }
-.py-10 { padding-top: 10px; padding-bottom: 10px; }
-.py-14 { padding-top: 14px; padding-bottom: 14px; }
-.py-18 { padding-top: 18px; padding-bottom: 18px; }
-.py-20 { padding-top: 20px; padding-bottom: 20px; }
-.py-24 { padding-top: 24px; padding-bottom: 24px; }
-.py-24 { padding-top: 24px; padding-bottom: 24px; }
-
 .flex { display: flex; }
 .flex.column { flex-direction: column; }
-.flex.justify-start { justify-content: flex-start; }
 .flex.justify-center { justify-content: center; }
-.flex.justify-end { justify-content: flex-end; }
 .flex.justify-space-between { justify-content: space-between; }
-.flex.align-start { align-items: flex-start; }
 .flex.align-center { align-items: center; }
-.flex.align-end { align-items: flex-end; }
-.flex.wrap { flex-wrap: wrap;}
 
 .rotate-picture{
     transform: rotate(-10deg);
@@ -76,6 +47,22 @@
 
 .rotate-picture:hover {
     transform: rotate(0deg);
+}
+
+.search, .main-article p, .click p, .click button, .membership button, .membership, .link {
+    font-size: 24px;
+}
+
+.click h2 {
+    font-size: 52px;
+}
+
+main > h1 {
+    font-size: 34px;
+}
+
+.minor-article h3, .wrote-item h3 {
+    font-size: 30px;
 }
 
 * {
@@ -163,8 +150,15 @@ h1 span {
     margin-right: 15px;
 }
 
+.main-article ul, .minor-article p {
+    font-size: 20px;
+}
+.main-article p {
+    font-size: 16px;
+}
 .main-article p span {
     font-style: italic;
+    font-size: 14px;
 }
 
 .main-article{
@@ -243,9 +237,14 @@ h1 span {
 .articles .trymyui h4, .articles .trymyui p, .articles .trymyui-inner, .feature p {
     padding: 20px;
 }
+.articles .trymyui h4, .main-article .title h2, .feature h4 {
+    font-size: 40px;
+}
+.main-article .title h2 {
+    display: inline;
+}
 
 .articles .trymyui button, .feature button {
-    margin: 20px 0;
     margin: 20px auto;
 }
 
