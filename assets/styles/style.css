@@ -97,10 +97,15 @@ button {
     margin: 0 10px;
 }
 
-.navbar .logo {
-    width: 200px;
-    height: 75px;
+.navbar ul {
+    width: 100%;
 }
+
+.navbar .logo {
+    height: 75px;
+    flex: 0 0 200px;
+}
+
 
 nav, h1, .main-article {
     border: 2px solid black !important;
@@ -219,6 +224,59 @@ h1 span {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     padding-right: 30px;
+    gap: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .nav-bottom, .articles {
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .nav-bottom .feature{
+        grid-column: 1/-1;
+    }
+}
+
+@media (max-width: 1750px) {
+    .podcasts{
+        display: none;
+    }
+}
+@media (max-width: 1600px) {
+    .newsletter{
+        display: none;
+    }
+}
+@media (max-width: 1500px) {
+    .jobs{
+        display: none;
+    }
+}
+@media (max-width: 1350px) {
+    .li-membership{
+        display: none;
+    }
+}
+@media (max-width: 1050px) {
+    .events{
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .books{
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+    .guides{
+        display: none;
+    }
+}
+@media (max-width: 630px) {
+    .li-articles{
+        display: none;
+    }
 }
 
 .articles > * {
