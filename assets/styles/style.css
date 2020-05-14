@@ -1,6 +1,6 @@
 :root {
     --color-00: #000000;
-    --color-01: #1c1c1c;
+    --color-01: #111111;
     --color-02: #242424;
     --color-03: #333333;
     --color-04: #575757;
@@ -16,7 +16,6 @@
     line-height: 30px;
 }
 
-.bg-00 { background-color: var(--color-00); }
 .bg-01 { background-color: var(--color-01); }
 .bg-02 { background-color: var(--color-02); }
 .bg-03 { background-color: var(--color-03); }
@@ -63,6 +62,11 @@ main > h1 {
 
 .minor-article h3, .wrote-item h3 {
     font-size: 30px;
+    background-color: #262626;
+}
+
+.wrote-item span, .wrote-item p{
+    background-color: #707070;
 }
 
 * {
@@ -137,13 +141,11 @@ h1 span {
 
 .row1 {
     height: 684.36px;
-    background-color: brown;
     padding-top: 210px;
 }
 
 .row2 {
     height: 644.77px;
-    background-color: coral;
     padding-top: 50px;
 }
 
@@ -151,16 +153,22 @@ h1 span {
     display: inline-block;
     width: 75.6px;
     height: 75.6px;
-    background-color: crimson;
+    background-color: #141414;
     margin-right: 15px;
+}
+
+.minor-article {
+    background-color: #575757;
 }
 
 .main-article ul, .minor-article p {
     font-size: 20px;
 }
-.main-article p {
+.main-article p, .main-article ul{
     font-size: 16px;
+    background-color: #707070;
 }
+
 .main-article p span {
     font-style: italic;
     font-size: 14px;
@@ -175,20 +183,26 @@ h1 span {
 .main-article .title {
     margin: 40px 0px;
     padding: 20px;
+    background-color: #262626;
 }
 
-.membership{
-    background-color: darkcyan;
+
+.membership {
+    background-color: #333333;
     padding: 20px 250px;
     display: grid;
     grid-template-columns: 1fr 300px;
     justify-items: center;
 }
 
+.list button{
+    background-color: #141414;
+}
+
 .big-picture{
     height: 322px; 
     width: 250px;
-    background-color: darkorange;
+    background-color: #141414;
     flex: 0 0 250px;
     position: relative; 
     bottom: 50px;
@@ -197,7 +211,6 @@ h1 span {
 
 .list {
     margin-right: 100px;
-    background-color: darkslategray;
     padding: 30px;
 }
 
@@ -212,7 +225,7 @@ h1 span {
 .about-membership {
     width: 435px;
     height: 70px;
-    background-color: green;
+    background-color: #141414;
     margin-left: 40px;
     border: none;
     color: white;
@@ -292,6 +305,10 @@ h1 span {
     padding: 16px;
 }
 
+.trymyui-inner{
+    background-color: #242424;
+}
+
 .articles .trymyui h4, .articles .trymyui p, .articles .trymyui-inner, .feature p {
     padding: 20px;
 }
@@ -302,7 +319,7 @@ h1 span {
     display: inline;
 }
 
-.articles .trymyui button, .feature button {
+.trymyui button, .feature button {
     margin: 20px auto;
 }
 
@@ -314,7 +331,7 @@ h1 span {
 .feature .feature-image {
     width: 250px;
     height: 290px;
-    background: red;
+    background: #111111;
     margin-top: 20px;
 }
 
@@ -344,7 +361,7 @@ h1 span {
     margin: 40px 0;
     width: 920px;
     height: 517px;
-    background: red;
+    background: #141414;
 }
 
 /* Week Person Section */
@@ -352,13 +369,14 @@ h1 span {
 .picture {
     width: 284px;
     height: 284px;
-    background-color: white;
+    background-color: #242424;
     margin-top: 40px;
 }
 
 .text {
     width: 70%;
     margin-left: 40px;
+    background-color: #575757;
 }
 
 .week-person {
@@ -379,10 +397,14 @@ h4{
 .writers{
     padding: 40px;
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     grid-gap: 40px;
-    background-color: blue;
+    background-color: #575757;
+    
+}
+
+h5 {
+    background-color: #575757
 }
 
 .text-writer h3{
@@ -395,6 +417,7 @@ h4{
 
 .nav-bottom-outer {
     padding: 30px;
+    background-color: #adadad;
 }
 .nav-group {
     padding: 16px;
@@ -402,21 +425,22 @@ h4{
 
 .nav-group ul {
     margin-top: 30px;
+    padding: 0 16px;
 }
 
 .nav-group h5 {
     font-size: 30px;
     font-weight: bold;
 }
-.nav-group ul {
-    padding: 0 16px;
-}
+
 .nav-group ul li {
     padding: 10px 0;
+    background-color: #a8a8a8;
 }
 
 footer {
     padding: 60px;
+    background-color: #b7bfbf;
 }
 
 footer > * {
