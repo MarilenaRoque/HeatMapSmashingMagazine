@@ -415,6 +415,10 @@ footer .footer-links {
   line-height: 40px;
 }
 
+.footer-links a {
+  color: #fff;
+}
+
 .articles > * {
   padding: 26px;
 }
