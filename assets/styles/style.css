@@ -223,6 +223,11 @@ main article:first-of-type,
   padding: 20px 40px;
 }
 
+.footer-links li,
+.credits li {
+  display: inline-block;
+}
+
 .feature h4,
 .text-writer h3,
 main h1,
@@ -431,13 +436,6 @@ footer .footer-links {
 .credits a {
   color: #fff;
 }
-
-.footer-links li, .credits li{
-  display: inline-block;
-}
-
-
-
 
 .articles > * {
   padding: 26px;
