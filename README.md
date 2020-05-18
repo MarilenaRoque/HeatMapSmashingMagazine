@@ -1,8 +1,8 @@
 # Smashing Magazine Homepage Heatmap
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-This is just a heatmap of the homepage of [the smashing magazine website](https://www.smashingmagazine.com/)
+This is a heatmap of the homepage of [the smashing magazine website](https://www.smashingmagazine.com/)
 
 ## Built With
 

@@ -196,6 +196,14 @@ main > h1 {
 footer .credits,
 .nav-bottom-outer { background-color: #adadad; }
 
+.credits-1 {
+  width: 405px;
+}
+
+.credits-2 {
+  width: 469px;
+}
+
 nav li,
 main article:first-of-type,
 .feature,
@@ -417,7 +425,19 @@ footer .footer-links {
 
 .footer-links a {
   color: #fff;
+  text-decoration: none;
 }
+
+.credits a {
+  color: #fff;
+}
+
+.footer-links li, .credits li{
+  display: inline-block;
+}
+
+
+
 
 .articles > * {
   padding: 26px;
